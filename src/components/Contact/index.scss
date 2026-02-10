@@ -1,0 +1,64 @@
+.container-contact-page {
+  width: 100%;
+  will-change: contents;
+  height: 90%;
+  min-height: 566px;
+  position: absolute;
+  z-index: 1;
+  top: 5%;
+  display: flex;
+  align-items: center;
+  opacity: 0; 
+  animation: fadeIn 1s forwards;
+  animation-delay: 2s;
+  
+  .text-zone {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40%;
+    max-height: 90%;
+
+    p {
+      font-size: 18px;
+      color: #fff;
+      font-family: sans-serif;
+      font-weight: 300;
+      line-height: 1.5;
+
+      a {
+        color: #ffd700;
+        text-decoration: none;
+        font-weight: bold;
+        display: inline-flex;
+        align-items: center;
+        gap: 15px;
+        transition: 0.3s ease-out all;
+
+        svg {
+          font-size: 30px;
+          transition: transform 0.3s ease;
+        }
+
+        &:hover {
+          color: #fff;
+          
+          svg {
+            transform: scale(1.2) rotate(10deg);
+            color: #0077b5;
+          }
+        }
+      }
+    }
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -7,7 +7,7 @@ const Layout = () => {
         <div className="App">
             <Sidebar />
             <div className='page'>
-                <span className='tags top-tags'>&lt;body&gt;</span> // code symbol
+                <span className='tags top-tags'>&lt;body&gt;</span>
 
                 <Outlet />
 
@@ -15,7 +15,7 @@ const Layout = () => {
                 &lt;body&gt;
                 <br/>
                 <span className='bottom-tag-html'>&lt;/html&gt;</span>
-                </span> // code symbol
+                </span>
             </div>
         </div>
     )
