@@ -46,7 +46,6 @@ const Portfolio = () => {
                 <AnimatedLetters letterClass={letterClass} strArray={"Portfolio".split("")} idx={15}/>
             </h1>
             <div>{renderPortfolio(portfolioData.portfolio)}</div>
-
         </div>
         <Loader type="pacman"/>
         </>
