@@ -1,25 +1,31 @@
 {
-    "portfolio": [
-        {
-            "cover": "/portfolio/QuickChat/QuickChat.png",
-            "title": "QuickChat",
-            "description": "Created a TCP client-server chat application that utilities asynchronous I/O to handle multiple concurrent connections. Practiced Resource Acquisition Is Initialization through the management of sockets.",
-            "tools": "C++, Boost",
-            "url": "https://github.com/santos-eng/QuickChat"
-        },
-        {
-            "cover": "/portfolio/Sudoku/Sudoku.png",
-            "title": "Sudoku",
-            "description": "Built a cross-platform Sudoku game with an intuitive UI that highlights row, column and box violations to increase solve speed. Implemented fast puzzle generating and solving algorithms using backtracking and bitwise validation.",
-            "tools": "C++, Qt",
-            "url": "https://github.com/santos-eng/Sudoku"
-        },
-        {
-            "cover": "/portfolio/Mazer/Mazer.png",
-            "title": "Mazer",
-            "description": "Developed a real-time 3D raycasting engine in C++ rendered in the console with player movement and collision detection. Interfaced with an open-source console window game engine, improving the modularity and extensibility.",
-            "tools": "C++",
-            "url": "https://github.com/santos-eng/Mazer"
-        }
-    ]
+  "portfolio": [
+    {
+      "id": "quickchat",
+      "cover": "/portfolio/QuickChat/QuickChat.png",
+      "title": "QuickChat",
+      "tag": "Networking & Systems",
+      "description": "A high-performance TCP client-server chat application utilizing asynchronous I/O to handle multiple concurrent connections. Implements strict RAII principles for resilient socket and thread management.",
+      "tools": ["C++", "Boost.Asio", "TCP/IP", "Multi-threading", "RAII"],
+      "url": "https://github.com/santos-eng/QuickChat"
+    },
+    {
+      "id": "sudoku",
+      "cover": "/portfolio/Sudoku/Sudoku.png",
+      "title": "Sudoku Solver & GUI",
+      "tag": "Desktop Application",
+      "description": "A cross-platform Sudoku desktop game with an intuitive UI highlighting real-time row, column, and block conflicts. Features rapid puzzle generation and solving via recursive backtracking and bitwise constraint validation.",
+      "tools": ["C++", "Qt Framework", "Backtracking", "Bitwise Optimization", "UI/UX"],
+      "url": "https://github.com/santos-eng/Sudoku"
+    },
+    {
+      "id": "mazer",
+      "cover": "/portfolio/Mazer/Mazer.png",
+      "title": "Mazer 3D Engine",
+      "tag": "Graphics & Game Engine",
+      "description": "A real-time 3D raycasting engine rendered directly in the terminal console with vector-based player movement, collision detection, and texture shading. Interfaced with an open-source console window engine for high modularity.",
+      "tools": ["C++", "Raycasting", "Linear Algebra", "Game Loop", "Console Graphics"],
+      "url": "https://github.com/santos-eng/Mazer"
+    }
+  ]
 }
